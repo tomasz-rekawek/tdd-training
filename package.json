@@ -17,6 +17,10 @@
   },
   "homepage": "https://github.com/tomasz-rekawek/tdd-training#readme",
   "devDependencies": {
-    "jest": "^23.1.0"
+    "jest": "^23.1.0",
+    "babel-core": "^6",
+    "babel-env": "^2.4.1",
+    "babel-preset-env": "^1",
+    "babel-preset-react": "^6"
   }
 }
