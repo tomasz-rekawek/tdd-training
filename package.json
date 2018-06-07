@@ -1,0 +1,22 @@
+{
+  "name": "tdd-training",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tomasz-rekawek/tdd-training.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tomasz-rekawek/tdd-training/issues"
+  },
+  "homepage": "https://github.com/tomasz-rekawek/tdd-training#readme",
+  "devDependencies": {
+    "jest": "^23.1.0"
+  }
+}
