@@ -18,9 +18,9 @@
   "homepage": "https://github.com/tomasz-rekawek/tdd-training#readme",
   "devDependencies": {
     "jest": "^23.1.0",
-    "babel-transform-class-properties": "*",
-    "babel-transform-decorators": "*",
-    "babel-transform-react-constant-elements": "*",
-    "babel-transform-react-inline-elements": "*"
+    "babel-plugin-transform-class-properties": "*",
+    "babel-plugin-transform-decorators": "*",
+    "babel-plugin-transform-react-constant-elements": "*",
+    "babel-plugin-transform-react-inline-elements": "*"
   }
 }
