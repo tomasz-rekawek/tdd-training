@@ -1,25 +1,23 @@
-class car {
-    constructor(brand) {
-        this.speed = 0;
-        this.wheel = 0;
-        this.brand = brand;
-    }
-    checkSpeed() {
+let car = function(brand) {
+    this.speed = 0;
+    this.wheel = 0;
+    this.brand = brand;
+    this.checkSpeed = () => {
         return this.speed;
     }
-    turnWheel(angle) {
+    this.turnWheel = () => {
         this.wheel = angle;
     }
-    break(howStrong, howLong) {
+    this.break = (howStrong, howLong) => {
         this.speed = this.speed - howStrong * howLong;
     }
-    accelerate(howFast, howLong) {
+    this.accelerate = (howFast, howLong) => {
         if(typeof howFast !== 'number' || typeof howLong !== 'number') {
             throw 'accelerate works only with numbers'
         }
         this.speed = this.speed + howFast * howLong;
     }
-    stop() {
+    this.stop = () => {
         this.speed = 0;
     }
 }
