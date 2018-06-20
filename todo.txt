@@ -1,0 +1,9 @@
+create a manual car class
+that will inherit from car 
+will have 1 more property 'gears' 
+constructor will accept number of 'gears' 
+you will have a method to get how many 'gears' have the car
+
+1. create a car using prototypes
+2. create a manualCar using prototype 
+3. test if the old tests are working 
